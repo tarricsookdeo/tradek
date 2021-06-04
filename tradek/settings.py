@@ -48,6 +48,9 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'rest_auth.registration',
     'corsheaders',
+
+    # Local apps
+    'tradek.apps.users',
 ]
 
 MIDDLEWARE = [
